@@ -65,7 +65,7 @@ public class SpecJinglePlugin extends Plugin {
 				}
 
 				if (shouldPlaySoundEffect) {
-					client.playSoundEffect(2055, this.config.volume());
+					client.playSoundEffect(97, this.config.volume());
 				}
 			} else {
 				currentSpecialAttackPercent = newPercent;
